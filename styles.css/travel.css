@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+ 
+ *{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mulish', sans-serif;
+ }
+ header{
+    max-width: 1170px;
+    padding: 45px 135px;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+nav ul{
+    display: flex;
+    gap: 44px;
+}
+nav li{
+    list-style: none;
+    color: #424247;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+    
+    
+}
+nav li a{
+    text-decoration: none;
+}
+.logo img{
+    width: 3rem;
+    height: 3.5rem;
+}
+.logo{
+    gap: 1.5rem;
+}
+.logo p{
+    max-width: 400px;
+    height: 45px;
+font-size: 36px;
+
+font-weight: 800;
+text-align: center;
+
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+.h-style{
+    color: #FF5400;
+
+    font-weight: 700;
+}
+.t-style{
+    color: orangered;
+}
+.banner{
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('Group\ 13\ \(1\)\ \(1\).png');
+    margin-top: 50px;
+}
+.selection{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+
